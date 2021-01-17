@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/mailtext-send.svg)](http://badge.fury.io/js/mailtext-send)
-[![Build Status](https://travis-ci.org/sarfophil/mailtext-sdk.svg)](https://travis-ci.org/sarfophil/mailtext-send)
+[![Build Status](https://travis-ci.org/sarfophil/mailtext-send.svg)](https://travis-ci.org/sarfophil/mailtext-send)
 
 # Mailtext-send
 Minimalistic module to send bulk sms using Mailtext
