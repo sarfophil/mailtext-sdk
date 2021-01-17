@@ -1,5 +1,5 @@
 {
-  "name": "mailtext-sms",
+  "name": "mailtext-send",
   "version": "1.0.0-alpha",
   "description": "Minimalistic module to send bulk sms using Mailtext",
   "main": "index.js",
