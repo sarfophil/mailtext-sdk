@@ -63,8 +63,7 @@ export class Mailtext {
     return this._token;
   }
 
-  send(payload: Message, cb: (resp: any) => void): void {
-
+  send(payload: Message, cb: (resp: any, error?: any) => void): void {
     const message = JSON.stringify(payload);
     const option = {
       method: `POST`,
@@ -92,7 +91,7 @@ export class Mailtext {
       })
 
     request.on('error', (e) => {
-      throw new Error( `An error occurred while sending SMS. Visit ${this._basePath} for more details. Error message: ${e.message}` );
+      cb(null, `An error occurred while sending SMS. Visit ${this._basePath} for more details. Error message: ${e.message}`)
     });
     request.write(message);
     request.end()

@@ -1,4 +1,5 @@
 import { mailText } from '../index';
+import * as assert from 'assert';
 
 describe('Mailtext Testing', () => {
   test('should send SMS', () => {
@@ -8,6 +9,8 @@ describe('Mailtext Testing', () => {
         sms_id: 'sms90',
         message: 'Hello Testing',
         type: 'bulk',
-      }, (res) => expect(res).toBeDefined())
+      }, (res, err) => {
+          assert.ok(`cb called`)
+      })
   })
 })
