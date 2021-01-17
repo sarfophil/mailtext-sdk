@@ -1,14 +1,5 @@
 [![npm version](https://badge.fury.io/js/mailtext-send.svg)](http://badge.fury.io/js/mailtext-send)
 [![Build Status](https://travis-ci.org/sarfophil/mailtext-sdk.svg)](https://travis-ci.org/sarfophil/mailtext-send)
-[![Coverage Status](https://coveralls.io/repos/sarfophil/mailtext-send/badge.svg?branch=master&service=github)](https://coveralls.io/github/sarfophil/mailtext-send?branch=master)
-[![Code Climate](https://codeclimate.com/github/sarfophil/mailtext-send/badges/gpa.svg)](https://codeclimate.com/github/sarfophil/mailtext-send)
-[![Inch CI](https://inch-ci.org/github/sarfophil/mailtext-send.svg?branch=master)](https://inch-ci.org/github/sarfophil/mailtext-send)
-
-[![Dependency Status](https://david-dm.org/sarfophil/mailtext-send/status.svg)](https://david-dm.org/sarfophil/mailtext-send#info=dependencies)
-[![devDependency Status](https://david-dm.org/sarfophil/mailtext-send/dev-status.svg)](https://david-dm.org/sarfophil/mailtext-send#info=devDependencies)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/sarfophil/gmail-send/badge.svg)](https://snyk.io/test/github/sarfophil/mailtext-send)
-
 
 # Mailtext-send
 Minimalistic module to send bulk sms using Mailtext
@@ -63,4 +54,4 @@ In order to send sms using MailText you need your account to be configured prope
 
 ## License
 
-MIT
+ISC

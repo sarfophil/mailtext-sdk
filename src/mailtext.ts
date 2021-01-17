@@ -16,8 +16,6 @@ export class Mailtext {
   private _token: string | undefined;
   private _basePath: string = 'https://partner.mailtext.co'
 
-  constructor() {}
-
   generateToken(credential: Credential, onComplete?: () => void): void {
     const data = JSON.stringify(credential);
      const option = {
@@ -36,7 +34,7 @@ export class Mailtext {
 
        res.setEncoding('utf8');
 
-       if (res.statusCode != 200)
+       if (res.statusCode !== 200)
          request.destroy(new Error(`${res.statusMessage}`))
 
        res.on('data', (chunk) => {
@@ -82,7 +80,7 @@ export class Mailtext {
       (res) => {
 
         res.setEncoding('utf8');
-        if (res.statusCode != 200)
+        if (res.statusCode !== 200)
           request.destroy(new Error(`${res.statusMessage}`))
 
         res.on('end', () => {
