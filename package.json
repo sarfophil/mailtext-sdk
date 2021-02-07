@@ -1,8 +1,8 @@
 {
   "name": "mailtext-send",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "Minimalistic module to send bulk sms using Mailtext",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
@@ -19,7 +19,7 @@
     "type": "url",
     "url": "https://github.com/sarfophil/mailtext-send"
   },
-  "keywords": [],
+  "keywords": ["sms-api","smsapi", "sms", "smsgateway", "smstext", "sms-text"],
   "author": "Sarfo Philip",
   "license": "ISC",
   "devDependencies": {

@@ -25,8 +25,8 @@ In order to send sms using MailText you need your account to be configured prope
 # Quick Start
 1) Initialization: require the module and set defaults
 ```js
- const mailtext = require('mailtext-send')
- mailtext(account).send(message, (res, err) => { console.log(res) })
+ const {mailText} = require('mailtext-send')
+ mailText(account).send(message, (res, err) => { console.log(res) })
 ```
 - `account` - mandatory - an object with the following basic authentication properties
     - `email` - mandatory
